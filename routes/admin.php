@@ -56,7 +56,7 @@ Route::group(['namespace' => 'Admin', 'guard'=>'admin'] , function () {
 
         Route::match(['GET', 'POST'], 'bulkrequest' , 'BulkRequestController@index')->name('admin.bulkrequest');
 
-        Route::match(['GET', 'POST'], 'whitelabel' , 'WhiteLabelController@index')->name('admin.whitelabel');
+        Route::match(['GET', 'POST'], 'whitelabel'  , 'WhiteLabelController@index')->name('admin.whitelabel');
 
         Route::match(['GET', 'POST'], 'contact' , 'ContactController@index')->name('admin.contact');
 

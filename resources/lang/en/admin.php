@@ -32,7 +32,7 @@ return [
 
 	'demoLeads' => "Demo Leads",
 
-	'bulkRequest' => "Bulk Request",
+	'bulkRequest' => "Bulk Request" ,
 
 	'whiteLabel' => "White Label",
 
