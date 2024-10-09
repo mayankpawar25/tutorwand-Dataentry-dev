@@ -6,6 +6,8 @@
 
 /vendor/
 
+/bootstrap/
+
 .env
 
 .env.backup
