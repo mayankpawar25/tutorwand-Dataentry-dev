@@ -59,6 +59,8 @@
 
                     <li class="@if(request()->path() == 'admin/bulkrequest') active-link @endif"><a href="{{ route('admin.bulkrequest') }}"><i class="material-icons">event</i>{{ __('admin.bulkRequest') }}</a></li>
 
+                    <li class="@if(request()->path() == 'admin/whitelabel') active-link @endif"><a href="{{ route('admin.whitelabel') }}"><i class="material-icons">event</i>{{ __('admin.whiteLabel') }}</a></li>
+
                     <li class="@if(request()->path() == 'admin/contact') active-link @endif"><a href="{{ route('admin.contact') }}"><i class="material-icons">contact_support</i>{{ __('admin.contact') }}</a></li>
 
                     <li class="@if(request()->path() == 'admin/subscription') active-link @endif"><a href="{{ route('admin.subscription') }}"><i class="material-icons">rocket_launch</i>{{ __('admin.subscription') }}</a></li>

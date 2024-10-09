@@ -34,6 +34,8 @@ return [
 
 	'bulkRequest' => "Bulk Request",
 
+	'whiteLabel' => "White Label",
+
 	'planRequest' => "Plan Request",
 
 	'contact' => "Contact",
